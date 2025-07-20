@@ -8,3 +8,4 @@ This repository features a collection of Excel-based data analysis projects desi
 
 This project shows advanced PivotTables and PivotCharts. The interactive dashboard pulls together key retail metrics - total orders, revenue, quantity, and average rating, in case it makes them easy to explore with slicers for date, payment method, and city. 
    
+Dashboard: ![amazon](https://github.com/valerijarudjko/data-analysis-xlsx-projects/blob/main/amazon_sales_analysis/Amazon%20Sales%20Interactive%20Dashboard.png)
