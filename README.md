@@ -31,7 +31,7 @@ When you release the mouse after drawing:
 - Excel will ask you to assign a macro.
 - Click New and in the VBA editor, paste this (vba):
 
-```vda
+```vba
 Sub Refresh_All()
 ThisWorkbook.RefreshAll
 End Sub
