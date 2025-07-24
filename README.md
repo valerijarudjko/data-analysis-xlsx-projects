@@ -9,3 +9,41 @@ This repository features a collection of Excel-based data analysis projects desi
 This project shows advanced PivotTables and PivotCharts. The interactive dashboard pulls together key retail metrics - total orders, revenue, quantity, and average rating, in case it makes them easy to explore with slicers for date, payment method, and city. 
    
 Dashboard: ![amazon](https://github.com/valerijarudjko/data-analysis-xlsx-projects/blob/main/amazon_sales_analysis/Amazon%20Sales%20Interactive%20Dashboard.png)
+
+
+
+
+------
+## Refresh Data button to your Excel dashboard 
+
+1. Turn on the Developer tab:
+
+- Go to Excel > Preferences > Ribbon & Toolbar (on Mac) or File > Options > Customize Ribbon (on Windows).
+- Enable the Developer tab.
+  
+2. Insert a button:
+- Go to Developer → Insert → Form Controls → Button (Form Control).
+- Draw the button on your dashboard where you want the icon.
+  
+3. Assign a macro:
+
+When you release the mouse after drawing:
+- Excel will ask you to assign a macro.
+- Click New and in the VBA editor, paste this (vba):
+
+```vda
+Sub Refresh_All()
+ThisWorkbook.RefreshAll
+End Sub
+```
+- Save and close the VBA editor.
+- Select the Refresh_All macro for your button.
+
+4. (Optional) Format it:
+
+- Right‑click the button → Edit Text to rename it to something like "🔄 or icon Refresh Data".
+- Resize, style, or place an icon image behind it for a cleaner look.
+
+After this function when you click Refresh Data shape or icon, it will run the macro and refresh all PivotTables, PivotCharts, and queries in the workbook.
+
+-----
