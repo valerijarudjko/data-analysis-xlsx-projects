@@ -10,8 +10,13 @@ This project shows advanced PivotTables and PivotCharts. The interactive dashboa
    
 Dashboard: ![amazon](https://github.com/valerijarudjko/data-analysis-xlsx-projects/blob/main/amazon_sales_analysis/Amazon%20Sales%20Interactive%20Dashboard.png)
 
+-----
+## Project 2 - Sales and Profit Data Analysis
+
+This project demonstrates advanced PivotTables and PivotCharts in Excel. The interactive dashboard brings together key sales metrics - total sales, total profit, and customer counts, making easy to explore with slicers for order date and product category. It also visualises profit by year, sales by state, and highlights top‑performing sub‑categories and customers.
 
 
+Dashboard: ![sales](https://github.com/valerijarudjko/data-analysis-xlsx-projects/blob/main/sales_profit_analysis/sales_profit_dashboard.png)
 
 ------
 ## Refresh Data button to your Excel dashboard 
