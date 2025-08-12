@@ -19,6 +19,12 @@ This project demonstrates advanced PivotTables and PivotCharts in Excel. The int
 Dashboard: ![sales](https://github.com/valerijarudjko/data-analysis-xlsx-projects/blob/main/sales_profit_analysis/sales_profit_dashboard.png)
 
 ------
+## Project 3 - Employee Workflow Data Analysis
+
+
+
+______
+
 ## Refresh Data button to your Excel dashboard 
 
 1. Turn on the Developer tab:
